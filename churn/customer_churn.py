@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 
-# Read the data set into a pandas DataFrame
+# Read the data set into a pandas DataFrame.
 churn = pd.read_csv('datascience/churn/churn.csv', sep=',', header=0)
 
 churn.head()
